@@ -1,0 +1,36 @@
+{
+  "name": "quintolin/website",
+  "description": "Homepage and user interface of the Quintolin game",
+  "type": "project",
+  "keywords": [
+    "quintolin",
+    "game",
+    "pbbg"
+  ],
+  "homepage": "https://github.com/quintolin",
+  "readme": "README.md",
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Krzysztof Sikorski",
+      "homepage": "https://zerozero.pl/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "chat": "https://discord.gg/ZKTSKne"
+  },
+  "require": {
+    "php": "^8.3",
+    "quintolin/core": "^0.0.1",
+    "quintolin/storage": "^0.0.1"
+  },
+  "require-dev": {
+    "quintolin/coding-standard": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Quintolin\\Storage\\": "src/"
+    }
+  }
+}

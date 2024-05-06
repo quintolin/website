@@ -1,0 +1,178 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b70693d3abd156f27408a906ec58d268",
+    "packages": [
+        {
+            "name": "quintolin/core",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quintolin/core.git",
+                "reference": "74e072d8bc5a250ec6671eb6ad364257749e49da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quintolin/core/zipball/74e072d8bc5a250ec6671eb6ad364257749e49da",
+                "reference": "74e072d8bc5a250ec6671eb6ad364257749e49da",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "quintolin/coding-standard": "^1.0"
+            },
+            "suggest": {
+                "quintolin/storage-implementation": "Implementation of storage interfaces"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Quintolin\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Krzysztof Sikorski",
+                    "homepage": "https://zerozero.pl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Core engine for Quintolin game",
+            "homepage": "https://github.com/quintolin",
+            "keywords": [
+                "game",
+                "pbbg",
+                "quintolin"
+            ],
+            "support": {
+                "chat": "https://discord.gg/ZKTSKne",
+                "issues": "https://github.com/quintolin/core/issues",
+                "source": "https://github.com/quintolin/core/tree/v0.0.1"
+            },
+            "time": "2024-05-06T01:32:24+00:00"
+        },
+        {
+            "name": "quintolin/storage",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quintolin/storage.git",
+                "reference": "71f11a27566ffac9e5e86a9b245351826b073bea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quintolin/storage/zipball/71f11a27566ffac9e5e86a9b245351826b073bea",
+                "reference": "71f11a27566ffac9e5e86a9b245351826b073bea",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.3",
+                "quintolin/core": "^0.0.1"
+            },
+            "provide": {
+                "quintolin/storage-implementation": "^0.0.1"
+            },
+            "require-dev": {
+                "quintolin/coding-standard": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Quintolin\\Storage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Krzysztof Sikorski",
+                    "homepage": "https://zerozero.pl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Storage implementation for Quintolin game",
+            "homepage": "https://github.com/quintolin",
+            "keywords": [
+                "game",
+                "pbbg",
+                "quintolin"
+            ],
+            "support": {
+                "chat": "https://discord.gg/ZKTSKne",
+                "issues": "https://github.com/quintolin/storage/issues",
+                "source": "https://github.com/quintolin/storage/tree/v0.0.1"
+            },
+            "time": "2024-05-06T03:18:10+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "quintolin/coding-standard",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quintolin/php-coding-standard.git",
+                "reference": "7ca82c72ba0459605bbc82343d0596ce4597dab9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quintolin/php-coding-standard/zipball/7ca82c72ba0459605bbc82343d0596ce4597dab9",
+                "reference": "7ca82c72ba0459605bbc82343d0596ce4597dab9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Quintolin\\CodingStandard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Krzysztof Sikorski",
+                    "homepage": "https://zerozero.pl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Coding standard for Quintolin files",
+            "homepage": "https://github.com/quintolin",
+            "keywords": [
+                "php-cs-fixer",
+                "quintolin"
+            ],
+            "support": {
+                "chat": "https://discord.gg/ZKTSKne",
+                "issues": "https://github.com/quintolin/php-coding-standard/issues",
+                "source": "https://github.com/quintolin/php-coding-standard/tree/v1.0.0"
+            },
+            "time": "2024-05-05T17:14:23+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.3"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
