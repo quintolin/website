@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Quintolin\\Storage\\": "src/"
+      "App\\": "src/"
     }
   }
 }
