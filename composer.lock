@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "528fb5b5e68d2f7d7c3efb3b1aaf55ac",
+    "content-hash": "bb8d13a806a823dda7113ef6eb898fea",
     "packages": [
         {
             "name": "quintolin/core",

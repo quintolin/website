@@ -1,6 +1,7 @@
 {
   "name": "quintolin/website",
   "description": "Homepage and user interface of the Quintolin game",
+  "version": "0.0.3",
   "type": "project",
   "keywords": [
     "quintolin",
