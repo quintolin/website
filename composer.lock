@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b70693d3abd156f27408a906ec58d268",
+    "content-hash": "528fb5b5e68d2f7d7c3efb3b1aaf55ac",
     "packages": [
         {
             "name": "quintolin/core",
-            "version": "v0.0.1",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quintolin/core.git",
-                "reference": "74e072d8bc5a250ec6671eb6ad364257749e49da"
+                "reference": "d0b3ecd7175ae496e58cfc3f39c42561c170a137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quintolin/core/zipball/74e072d8bc5a250ec6671eb6ad364257749e49da",
-                "reference": "74e072d8bc5a250ec6671eb6ad364257749e49da",
+                "url": "https://api.github.com/repos/quintolin/core/zipball/d0b3ecd7175ae496e58cfc3f39c42561c170a137",
+                "reference": "d0b3ecd7175ae496e58cfc3f39c42561c170a137",
                 "shasum": ""
             },
             "require": {
@@ -56,30 +56,30 @@
             "support": {
                 "chat": "https://discord.gg/ZKTSKne",
                 "issues": "https://github.com/quintolin/core/issues",
-                "source": "https://github.com/quintolin/core/tree/v0.0.1"
+                "source": "https://github.com/quintolin/core/tree/v0.0.3"
             },
-            "time": "2024-05-06T01:32:24+00:00"
+            "time": "2024-05-15T23:04:56+00:00"
         },
         {
             "name": "quintolin/storage",
-            "version": "v0.0.1",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quintolin/storage.git",
-                "reference": "71f11a27566ffac9e5e86a9b245351826b073bea"
+                "reference": "c7834ae2fdd9c0519d877814381f8b576ef00831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quintolin/storage/zipball/71f11a27566ffac9e5e86a9b245351826b073bea",
-                "reference": "71f11a27566ffac9e5e86a9b245351826b073bea",
+                "url": "https://api.github.com/repos/quintolin/storage/zipball/c7834ae2fdd9c0519d877814381f8b576ef00831",
+                "reference": "c7834ae2fdd9c0519d877814381f8b576ef00831",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.3",
-                "quintolin/core": "^0.0.1"
+                "quintolin/core": "^0.0.3"
             },
             "provide": {
-                "quintolin/storage-implementation": "^0.0.1"
+                "quintolin/storage-implementation": "^0.0.3"
             },
             "require-dev": {
                 "quintolin/coding-standard": "^1.0"
@@ -111,24 +111,24 @@
             "support": {
                 "chat": "https://discord.gg/ZKTSKne",
                 "issues": "https://github.com/quintolin/storage/issues",
-                "source": "https://github.com/quintolin/storage/tree/v0.0.1"
+                "source": "https://github.com/quintolin/storage/tree/v0.0.3"
             },
-            "time": "2024-05-06T03:18:10+00:00"
+            "time": "2024-05-15T23:13:48+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "quintolin/coding-standard",
-            "version": "v1.0.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quintolin/php-coding-standard.git",
-                "reference": "7ca82c72ba0459605bbc82343d0596ce4597dab9"
+                "reference": "0d2cdbe783dd5157883ed2622b2f3061a401548a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quintolin/php-coding-standard/zipball/7ca82c72ba0459605bbc82343d0596ce4597dab9",
-                "reference": "7ca82c72ba0459605bbc82343d0596ce4597dab9",
+                "url": "https://api.github.com/repos/quintolin/php-coding-standard/zipball/0d2cdbe783dd5157883ed2622b2f3061a401548a",
+                "reference": "0d2cdbe783dd5157883ed2622b2f3061a401548a",
                 "shasum": ""
             },
             "require": {
@@ -160,9 +160,9 @@
             "support": {
                 "chat": "https://discord.gg/ZKTSKne",
                 "issues": "https://github.com/quintolin/php-coding-standard/issues",
-                "source": "https://github.com/quintolin/php-coding-standard/tree/v1.0.0"
+                "source": "https://github.com/quintolin/php-coding-standard/tree/v1.0.3"
             },
-            "time": "2024-05-05T17:14:23+00:00"
+            "time": "2024-05-15T22:57:19+00:00"
         }
     ],
     "aliases": [],

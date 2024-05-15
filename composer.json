@@ -22,11 +22,11 @@
   },
   "require": {
     "php": "^8.3",
-    "quintolin/core": "^0.0.1",
-    "quintolin/storage": "^0.0.1"
+    "quintolin/core": "^0.0.3",
+    "quintolin/storage": "^0.0.3"
   },
   "require-dev": {
-    "quintolin/coding-standard": "^1.0"
+    "quintolin/coding-standard": "^1.0.3"
   },
   "autoload": {
     "psr-4": {
