@@ -8,7 +8,9 @@
   "Exclude": [
     "^.git/",
     "^.idea/",
-    "^.php-cs-fixer.cache$"
+    "^.php-cs-fixer.cache$",
+    "^var/",
+    "^vendor/"
   ],
   "AllowedContentTypes": [],
   "PassedFiles": [],
